@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: rgba(255, 237, 221, 1);
+}
+header{
+    padding: 15px;
+    background-color: #ffeddd;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+#Page1{
+   font-family: "Aclonica", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   
+   background-color: rgba(255, 237, 221, 1);
+
+}
+#Page1 label{
+    height: 70px;
+    width: 70px;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+#Partes{
+    margin-left: 750px;
+}
+
+.Partes {
+    margin-left: 70px;
+}
+#Partes button {
+    font-size: 30px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color: transparent;
+    border: none;
+}
+#imgPage1 img{
+    width: 100%;
+    height: 758px;
+    filter: brightness(99%) blur(3px);
+    
+}
+
+#DivMain:hover img{
+    filter: brightness(100%);
+    transition: 0.5s;
+
+}
+#DivMain:hover svg{
+    opacity: 0;
+    top: 50%;
+}
+#DivMain svg{
+    position: absolute;
+    fill:#ffffff;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    height: 20px;
+    transform: translate(50%, 70%);
+    opacity: 1;
+    transition: 0.7s;
+}
+#imgPage1 h5{
+    margin-top: 40px;
+    line-height: 70px;
+    font-size: 22px;
+}
+#imgPage1 h3{
+    margin-top: 20px;   
+}
+#imgPage1 h1{
+    margin-top: 20px; 
+    
+}
+#DivMain{
+    background-color: rgba(255, 237, 221, 1);
+    
+    height: 589px;
+    position: absolute; 
+    top: 48%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+#DivMain img{
+    width: 100%;
+    height: 590px;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+#DivMain p{
+    font-size: 36px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 55px;
+}
+#DivMain div{
+  
+    font-family: "Jacques Francois", serif;
+    font-size: 24px;    
+    font-weight: 400;
+    font-style: normal;
+    width: 50%;
+    position: relative;
+}
+
+#DivMain div+div { padding-left: 2%;}
+
+#DivMain2 {
+    width: 50%;
+    margin-top: -8px;
+    height: 143px; 
+    margin-left: 25%;    
+    background-color: rgba(110, 56, 24, 1);      
+}
+
+#DivMain2 svg{
+    width: 40px;
+    height: 52px;
+    background-color: rgba(110, 56, 24, 1);  
+    margin-top: 40px;
+    margin-left: 200px;
+    
+}
+#Page2 {
+    display: flex;
+    margin-top: 50px;
+    height: 90%;
+}
+#Text{
+    width: 80%;
+    height: 70vh;
+    
+    
+}
+#Text span {
+    font-family: "Aclonica", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    
+}
+
+#Text svg{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+#Text p{
+    height: 30px;
+}
+#Text h3{
+    font-family: "Aclonica", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 150px;
+    
+}
+#Text h2{
+    margin-left: 150px;
+   
+}
+#Vertical{
+    background-color: rgba(110, 56, 24, 1);  
+    text-align: center;
+    width: 20%;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+#Vertical img {
+    height: 75vh;
+    width: 95%;
+    filter: brightness(20%);
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+#Vertical:hover img{
+    filter: brightness(100%);
+    transition: 0.5s;
+}
+#Vertical span{
+    background-color: rgba(110, 56, 24, 1);
+    color: #ffffff;
+    font-family: "Aclonica", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+   
+}
+
+#Vertical h1{
+    background-color: rgba(110, 56, 24, 1);
+    border-radius: 20px;
+}
+
+#Vertical h1 p{
+    background-color: rgba(110, 56, 24, 1);
+    border-radius: 20px;
+}
+
+#ImgPage2 img{
+    height: 795px;
+    width: 198vh;
+    background-size: cover;
+    border-radius: 10px;
+    filter: brightness(90%) blur(3px);
+    
+}
+#ImgPage2{
+    position: absolute;
+    z-index: -1;
+}
+#inputs input{
+    width: 240px;
+    height: 49px;
+    background-color: rgba(110, 56, 24, 1);
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    border: 0px;
+    border-radius: 10px;
+}
+#Email input{
+    width: 490px;
+}
+#T input{
+    width: 490px;
+    height: 220px;
+    
+}
+#inputs button{
+    height: 49px;
+    width: 490px;
+    border: 0px;
+    background-color: rgba(110, 56, 24, 1);
+    border-radius: 10px;
+    color: white;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* The switch - the box around the slider */
+#theme-toggle-button {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 7em;
+    cursor: pointer;
+  }
+  
+  /* Hide default HTML checkbox */
+  #toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  #container,
+  #patches,
+  #stars,
+  #button,
+  #sun,
+  #moon,
+  #cloud {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.25s;
+  }
+  
+  /* night sky background */
+  #toggle:checked + svg #container {
+    fill: #2b4360;
+  }
+  
+  /* move button to right when checked */
+  #toggle:checked + svg #button {
+    transform: translate(28px, 2.333px);
+  }
+  
+  /* show/hide sun and moon based on checkbox state */
+  #sun {
+    opacity: 1;
+  }
+  
+  #toggle:checked + svg #sun {
+    opacity: 0;
+  }
+  
+  #moon {
+    opacity: 0;
+  }
+  
+  #toggle:checked + svg #moon {
+    opacity: 1;
+  }
+  
+  /* show or hide background items on checkbox state */
+  #cloud {
+    opacity: 1;
+  }
+  
+  #toggle:checked + svg #cloud {
+    opacity: 0;
+  }
+  
+  #stars {
+    opacity: 0;
+  }
+  
+  #toggle:checked + svg #stars {
+    opacity: 1;
+  }
+  
+
